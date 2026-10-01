@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 1. Home/Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <h1>Hi, I'm <span class="highlight-name">Nayyirah Nizar Ladha</span></h1>
+            <p>Web Developer | Canva Graphic Designer | Tech Enthusiast</p>
+            <a href="#projects" class="btn">View My Work</a>
+            
+            <!-- 6. LinkedIn & GitHub Icons -->
+            <div class="social-links">
+                <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 2. About Me Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>
+                    I am a passionate developer dedicated to building responsive, user-friendly applications. 
+                    I enjoy transforming complex problems into simple, beautiful, and intuitive designs. When I'm not coding, 
+                    you can find me exploring new technologies or contributing to open-source projects.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Technical Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                
+                <div class="project-card">
+                    <img src="Images/GrantBridge.jpg" alt="Project 1">
+                    <div class="project-info">
+                        <h3>NGO Fund Proposal Writing</h3>
+                        <p>This is a dynamic, responsive and user friendly site for linking donors and NGO's</p>
+                        <a href="https://grantbridgeweb.netlify.app/" class="btn project-btn">View Code</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="Images/Music festival page.jpg" alt="Project 2">
+                    <div class="project-info">
+                        <h3>Music Festival Event Website</h3>
+                        <p>A website with variety of fun music events created with html,CSS and JavaScript</p>
+                        <a href="https://musicfestivalevent.netlify.app/" class="btn project-btn">View Code</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="Images/ice cream o.jpg" alt="Project 3">
+                    <div class="project-info">
+                        <h3>IceCream Website</h3>
+                        <p>An Ice Cream website containing variety of flavours made with html,CSS and JavaScript</p>
+                        <a href="https://icecreamplace.netlify.app/" class="btn project-btn">View Code</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Contact Form Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <form class="contact-form" action="#" method="POST">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn contact-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> Nayyirah Nizar Ladha. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
